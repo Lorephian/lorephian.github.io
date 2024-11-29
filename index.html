@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Catálogo de variedades de plantas - Colocasia Elena"
+    />
+    <title>Catálogo de Variedades - Ecoa Viveiro</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <section class="filters">
+      <!-- Search Bar -->
+      <div class="search-bar">
+        <input type="text" id="search" placeholder="Buscar por planta..." />
+        <button id="search-btn" class="search-button">Pesquisar</button>
+      </div>
+
+      <!-- Filters Section -->
+      <div class="filters-itens">
+        <div class="filter-item">
+          <label for="insolacao-filter">Insolação:</label>
+          <select id="insolacao-filter">
+            <option value="">Todas</option>
+            <option value="Sol Pleno">Sol Pleno</option>
+            <option value="Meia Sombra">Meia Sombra</option>
+            <option value="Sombra">Sombra</option>
+          </select>
+        </div>
+        <div class="filter-item">
+          <label for="porte-filter">Porte Adulto:</label>
+          <select id="porte-filter">
+            <option value="">Todos</option>
+            <option value="60">Baixo (até 60 cm)</option>
+            <option value="120">Médio (61-120 cm)</option>
+            <option value="121">Alto (acima de 120 cm)</option>
+          </select>
+        </div>
+        <div class="filter-item">
+          <label for="crescimento-filter">Crescimento:</label>
+          <select id="crescimento-filter">
+            <option value="">Todos</option>
+            <option value="Rápido">Rápido</option>
+            <option value="Médio">Médio</option>
+            <option value="Lento">Lento</option>
+          </select>
+        </div>
+        <div class="filter-item">
+          <label for="espacamento-filter">Espaçamento Sugerido:</label>
+          <select id="espacamento-filter">
+            <option value="">Todos</option>
+            <option value="1">1 / m²</option>
+            <option value="3">3 / m²</option>
+            <option value="4">4 / m²</option>
+            <option value="5">5 / m²</option>
+            <option value="9">9 / m²</option>
+            <option value="12">12 / m²</option>
+            <option value="13">13 / m²</option>
+            <option value="15">15 / m²</option>
+            <option value="30">30 / m²</option>
+          </select>
+        </div>
+        <div class="filter-item">
+          <label for="nacionalidade-filter">Nacionalidade:</label>
+          <select id="nacionalidade-filter">
+            <option value="">Todas</option>
+            <option value="Nativas">Nativas</option>
+            <option value="Exóticas">Exóticas</option>
+          </select>
+        </div>
+      </div>
+    </section>
+
+    <!-- Catalog Section -->
+    <section class="img-container container">
+      <script>
+        let catalogData = [];
+
+        // Function to create the plant catalog dynamically
+        function createCatalogItems(filteredData) {
+          const container = document.querySelector(".img-container");
+          container.innerHTML = ""; // Clear previous items
+
+          // Check if filtered data is empty
+          if (filteredData.length === 0) {
+            container.innerHTML =
+              "<p>Nenhuma planta atende os requesitos dos filtros selecionados.</p>";
+            return;
+          }
+
+          filteredData.forEach((item) => {
+            const plantDiv = document.createElement("div");
+            plantDiv.classList.add("plant-card");
+
+            plantDiv.innerHTML = `
+            <div class="logo-section">
+                    <div class="info">
+                      <h2>${item.nomepopular}</h2>
+                      <p><strong>Nome científico:</strong> <i>${
+                        item.nomecientifico
+                      }</i></p>
+                      <p><strong>Pote:</strong> ${item.pote}</p>
+                      <p><strong>Insolação:</strong> ${item.insolacao}</p>
+                    </div>
+                    <div><img src="/img/logo.png" alt="Logo Ecoa Viveiro" /></div>
+                  </div>
+                  <div class="img-container">
+                    <div class="left-imgs">
+                      <img src="/img/plants/${item.id}/planta.jpg" alt="${
+              item.nomepopular
+            } Image 1" />
+                      <img src="/img/plants/${item.id}/destaque.jpg" alt="${
+              item.nomepopular
+            } Image 3" />
+                    </div>
+                    <div class="right-imgs">
+                      <img src="/img/plants/${item.id}/escala.jpg" alt="${
+              item.nomepopular
+            } Image 2" />
+                      <img src="/img/nacionalidades/${item.nacionalidade.toLowerCase()}-${item.origem.toLowerCase()}.png" alt="${
+              item.nacionalidade
+            } Flag" />
+                    </div>
+                  </div>
+                  <div class="info-table">
+                    <div><h3>Porte Adulto</h3><p>${
+                      item.porteadultoemcm
+                    } cm</p></div>
+                    <div><h3>Crescimento</h3><p>${item.crescimento}</p></div>
+                    <div><h3>Diferencial</h3><p>${item.diferencial}</p></div>
+                    <div><h3>Espaçamento Sugerido</h3><p>${
+                      item.espacamentosugeridoquantidade
+                    } / ${item.espacamentosugeridounidadedemedida}</p></div>
+                  </div>
+                  
+                `;
+
+            container.appendChild(plantDiv);
+          });
+        }
+
+        // Function to filter catalog items based on selected filters and search input
+        function filterCatalog() {
+          let searchQuery = document
+            .getElementById("search")
+            .value.toLowerCase();
+          let porteValue = document.getElementById("porte-filter").value;
+          let crescimentoValue =
+            document.getElementById("crescimento-filter").value;
+          let espacamentoValue =
+            document.getElementById("espacamento-filter").value;
+          let insolacaoValue =
+            document.getElementById("insolacao-filter").value;
+          let nacionalidadeValue = document.getElementById(
+            "nacionalidade-filter"
+          ).value;
+
+          let filteredData = catalogData.filter((item) => {
+            // Check if all three images exist
+            let hasAllImages =
+              item.id &&
+              `/img/plants/${item.id}/planta.jpg` &&
+              `/img/plants/${item.id}/destaque.jpg` &&
+              `/img/plants/${item.id}/escala.jpg`;
+
+            let matchPorte = true;
+            if (porteValue) {
+              let porteNumber = parseInt(item.porteadultoemcm, 10);
+              if (porteValue === "60") {
+                matchPorte = porteNumber <= 60;
+              } else if (porteValue === "120") {
+                matchPorte = porteNumber > 60 && porteNumber <= 120;
+              } else if (porteValue === "121") {
+                matchPorte = porteNumber > 120;
+              }
+            }
+
+            let matchEspacamento = true;
+            if (espacamentoValue) {
+              matchEspacamento =
+                parseInt(item.espacamentosugeridoquantidade, 10) ===
+                parseInt(espacamentoValue, 10);
+            }
+
+            let matchInsolacao = true;
+            if (insolacaoValue) {
+              matchInsolacao = item.insolacao === insolacaoValue;
+            }
+
+            let matchNacionalidade = true;
+            if (nacionalidadeValue) {
+              if (nacionalidadeValue === "Nativas") {
+                matchNacionalidade = item.nacionalidade === "Brasil";
+              } else if (nacionalidadeValue === "Exóticas") {
+                matchNacionalidade = item.nacionalidade !== "Brasil";
+              }
+            }
+
+            return (
+              hasAllImages &&
+              matchPorte &&
+              matchEspacamento &&
+              matchInsolacao &&
+              matchNacionalidade &&
+              (crescimentoValue === "" ||
+                item.crescimento === crescimentoValue) &&
+              (searchQuery === "" ||
+                item.nomepopular.toLowerCase().includes(searchQuery))
+            );
+          });
+
+          createCatalogItems(filteredData);
+        }
+
+        // Autocomplete suggestions
+        function autocomplete(input, suggestions) {
+          let currentFocus;
+
+          input.addEventListener("input", function () {
+            let val = this.value;
+            closeAllLists();
+
+            if (!val) return false;
+            currentFocus = -1;
+
+            let listDiv = document.createElement("DIV");
+            listDiv.setAttribute("id", this.id + "autocomplete-list");
+            listDiv.setAttribute("class", "autocomplete-items");
+            this.parentNode.appendChild(listDiv);
+
+            suggestions.forEach((suggestion) => {
+              if (
+                suggestion.substr(0, val.length).toLowerCase() ===
+                val.toLowerCase()
+              ) {
+                let itemDiv = document.createElement("DIV");
+                itemDiv.innerHTML =
+                  "<strong>" + suggestion.substr(0, val.length) + "</strong>";
+                itemDiv.innerHTML += suggestion.substr(val.length);
+                itemDiv.innerHTML +=
+                  "<input type='hidden' value='" + suggestion + "'>";
+
+                itemDiv.addEventListener("click", function () {
+                  input.value = this.getElementsByTagName("input")[0].value;
+                  filterCatalog(); // Filter the catalog based on the selected suggestion
+                  closeAllLists();
+                });
+
+                listDiv.appendChild(itemDiv);
+              }
+            });
+          });
+
+          input.addEventListener("keydown", function (e) {
+            let list = document.getElementById(this.id + "autocomplete-list");
+            if (list) list = list.getElementsByTagName("div");
+
+            if (e.keyCode === 40) {
+              currentFocus++;
+              addActive(list);
+            } else if (e.keyCode === 38) {
+              currentFocus--;
+              addActive(list);
+            } else if (e.keyCode === 13) {
+              e.preventDefault();
+              if (currentFocus > -1) {
+                if (list) list[currentFocus].click();
+              }
+            }
+          });
+
+          function addActive(list) {
+            if (!list) return false;
+            removeActive(list);
+            if (currentFocus >= list.length) currentFocus = 0;
+            if (currentFocus < 0) currentFocus = list.length - 1;
+            list[currentFocus].classList.add("autocomplete-active");
+          }
+
+          function removeActive(list) {
+            for (let i = 0; i < list.length; i++) {
+              list[i].classList.remove("autocomplete-active");
+            }
+          }
+
+          function closeAllLists(element) {
+            let items = document.getElementsByClassName("autocomplete-items");
+            for (let i = 0; i < items.length; i++) {
+              if (element !== items[i] && element !== input) {
+                items[i].parentNode.removeChild(items[i]);
+              }
+            }
+          }
+
+          document.addEventListener("click", function (e) {
+            closeAllLists(e.target);
+          });
+        }
+
+        // Fetch catalog data and initialize filters and autocomplete
+        fetch("./produtos.json")
+          .then((response) => response.json())
+          .then((data) => {
+            catalogData = data;
+            let plantNames = catalogData.map((item) => item.nomepopular);
+            autocomplete(document.getElementById("search"), plantNames);
+            filterCatalog(); // Initially display all catalog items
+          })
+          .catch((error) =>
+            console.error("Error loading catalog data:", error)
+          );
+
+        // Event listeners for filters
+        document
+          .getElementById("insolacao-filter")
+          .addEventListener("change", filterCatalog);
+        document
+          .getElementById("porte-filter")
+          .addEventListener("change", filterCatalog);
+        document
+          .getElementById("crescimento-filter")
+          .addEventListener("change", filterCatalog);
+        document
+          .getElementById("espacamento-filter")
+          .addEventListener("change", filterCatalog);
+        document
+          .getElementById("nacionalidade-filter")
+          .addEventListener("change", filterCatalog);
+
+        // Event listener for search button
+        document
+          .getElementById("search-btn")
+          .addEventListener("click", filterCatalog);
+      </script>
+    </section>
+    <script>
+      // Search Functionality
+      document.getElementById("search").addEventListener("input", function () {
+        let searchQuery = this.value.toLowerCase();
+        // Implement search filtering logic here
+      });
+
+      // Filter Functionality
+      document
+        .getElementById("porte-filter")
+        .addEventListener("change", function () {
+          let porteValue = this.value;
+          // Implement porte filter logic here
+        });
+
+      document
+        .getElementById("crescimento-filter")
+        .addEventListener("change", function () {
+          let crescimentoValue = this.value;
+          // Implement crescimento filter logic here
+        });
+
+      document
+        .getElementById("espacamento-filter")
+        .addEventListener("change", function () {
+          let espacamentoValue = this.value;
+          // Implement espacamento filter logic here
+        });
+    </script>
+  </body>
+</html>
