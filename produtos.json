@@ -3924,7 +3924,7 @@
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
     "pote": "2,8 L e solto",
-    "completo": true
+    "completo": false
   },
   {
     "id": 227,
@@ -3941,7 +3941,7 @@
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
     "pote": "2,8 L e solto",
-    "completo": true
+    "completo": false
   },
   {
     "id": 228,
