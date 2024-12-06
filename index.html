@@ -158,12 +158,10 @@
           ).value;
 
           let filteredData = catalogData.filter((item) => {
-            // Check if all three images exist
-            let hasAllImages =
-              item.id &&
-              `/img/plants/${item.id}/planta.jpg` &&
-              `/img/plants/${item.id}/destaque.jpg` &&
-              `/img/plants/${item.id}/escala.jpg`;
+            // Filtrar apenas itens com "completo: true"
+            if (!item.completo) {
+              return false;
+            }
 
             let matchPorte = true;
             if (porteValue) {
@@ -199,7 +197,6 @@
             }
 
             return (
-              hasAllImages &&
               matchPorte &&
               matchEspacamento &&
               matchInsolacao &&

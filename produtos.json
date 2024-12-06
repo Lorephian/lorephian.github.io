@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "completo": true,
     "categoria": "Aquáticas Diversas",
     "nomepopular": "Mureré",
     "nomecientifico": "Limnocharis flava",
@@ -29,7 +30,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2024,
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": true
   },
   {
     "id": 3,
@@ -45,7 +47,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2024,
-    "pote": "2,8 L"
+    "pote": "2,8 L",
+    "completo": false
   },
   {
     "id": 4,
@@ -61,7 +64,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2024,
-    "pote": "2,8 L"
+    "pote": "2,8 L",
+    "completo": false
   },
   {
     "id": 84,
@@ -77,7 +81,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2024,
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 85,
@@ -93,7 +98,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2024,
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 86,
@@ -109,7 +115,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2024,
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 158,
@@ -125,7 +132,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2024,
-    "pote": "NP 14 e 2,8L"
+    "pote": "NP 14 e 2,8L",
+    "completo": false
   },
   {
     "id": 159,
@@ -141,7 +149,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2024,
-    "pote": "2,8 L"
+    "pote": "2,8 L",
+    "completo": false
   },
   {
     "id": 160,
@@ -157,7 +166,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2024,
-    "pote": "NP 14 e 2,8L"
+    "pote": "NP 14 e 2,8L",
+    "completo": false
   },
   {
     "id": 161,
@@ -173,7 +183,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2024,
-    "pote": "NP 14 e 2,8L"
+    "pote": "NP 14 e 2,8L",
+    "completo": false
   },
   {
     "id": 162,
@@ -189,7 +200,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2024,
-    "pote": "NP 14 e 2,8L"
+    "pote": "NP 14 e 2,8L",
+    "completo": false
   },
   {
     "id": 163,
@@ -205,7 +217,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2024,
-    "pote": "NP 14 e 2,8L"
+    "pote": "NP 14 e 2,8L",
+    "completo": false
   },
   {
     "id": 164,
@@ -221,7 +234,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2024,
-    "pote": "NP 14 e 2,8L"
+    "pote": "NP 14 e 2,8L",
+    "completo": false
   },
   {
     "id": 165,
@@ -237,7 +251,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2024,
-    "pote": "NP 14 e 2,8L"
+    "pote": "NP 14 e 2,8L",
+    "completo": false
   },
   {
     "id": 166,
@@ -253,7 +268,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2024,
-    "pote": "2,8 L"
+    "pote": "2,8 L",
+    "completo": false
   },
   {
     "id": 186,
@@ -269,7 +285,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Meia Sombra",
     "disponibilidade": 2024,
-    "pote": "NP 14 e 2,8L"
+    "pote": "NP 14 e 2,8L",
+    "completo": false
   },
   {
     "id": 187,
@@ -285,7 +302,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Meia Sombra",
     "disponibilidade": 2024,
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 188,
@@ -301,7 +319,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Meia Sombra",
     "disponibilidade": 2024,
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 189,
@@ -317,7 +336,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Meia Sombra",
     "disponibilidade": 2024,
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 190,
@@ -333,7 +353,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Meia Sombra",
     "disponibilidade": 2024,
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 191,
@@ -349,7 +370,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Meia Sombra",
     "disponibilidade": 2024,
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 192,
@@ -365,7 +387,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Meia Sombra",
     "disponibilidade": 2024,
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 5,
@@ -381,7 +404,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2025,
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": true
   },
   {
     "id": 6,
@@ -397,7 +421,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2025,
-    "pote": "2,8 L"
+    "pote": "2,8 L",
+    "completo": true
   },
   {
     "id": 7,
@@ -413,7 +438,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2025,
-    "pote": "2,8 L"
+    "pote": "2,8 L",
+    "completo": false
   },
   {
     "id": 8,
@@ -429,7 +455,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2025,
-    "pote": "2,8 L"
+    "pote": "2,8 L",
+    "completo": false
   },
   {
     "id": 9,
@@ -445,7 +472,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2025,
-    "pote": "2,8 L"
+    "pote": "2,8 L",
+    "completo": false
   },
   {
     "id": 10,
@@ -461,7 +489,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2025,
-    "pote": "2,8 L"
+    "pote": "2,8 L",
+    "completo": false
   },
   {
     "id": 11,
@@ -477,7 +506,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2025,
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 12,
@@ -493,7 +523,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2025,
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 13,
@@ -509,7 +540,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2025,
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": true
   },
   {
     "id": 14,
@@ -525,7 +557,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2025,
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 15,
@@ -541,7 +574,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2025,
-    "pote": "Bacia 30L"
+    "pote": "Bacia 30L",
+    "completo": false
   },
   {
     "id": 16,
@@ -557,7 +591,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2025,
-    "pote": "Bacia 30L"
+    "pote": "Bacia 30L",
+    "completo": false
   },
   {
     "id": 17,
@@ -573,7 +608,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2025,
-    "pote": "Bacia 30L"
+    "pote": "Bacia 30L",
+    "completo": false
   },
   {
     "id": 18,
@@ -589,7 +625,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2025,
-    "pote": "Bacia 30L"
+    "pote": "Bacia 30L",
+    "completo": false
   },
   {
     "id": 19,
@@ -605,7 +642,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2025,
-    "pote": "Bacia 30L"
+    "pote": "Bacia 30L",
+    "completo": false
   },
   {
     "id": 20,
@@ -621,7 +659,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2025,
-    "pote": "Bacia 30L"
+    "pote": "Bacia 30L",
+    "completo": false
   },
   {
     "id": 21,
@@ -637,7 +676,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2025,
-    "pote": "Bacia 30L"
+    "pote": "Bacia 30L",
+    "completo": false
   },
   {
     "id": 22,
@@ -653,7 +693,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2025,
-    "pote": "Bacia 30L"
+    "pote": "Bacia 30L",
+    "completo": false
   },
   {
     "id": 23,
@@ -669,7 +710,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2025,
-    "pote": "Bacia 30L"
+    "pote": "Bacia 30L",
+    "completo": false
   },
   {
     "id": 24,
@@ -685,7 +727,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2025,
-    "pote": "2,8 L"
+    "pote": "2,8 L",
+    "completo": false
   },
   {
     "id": 25,
@@ -701,7 +744,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2025,
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 26,
@@ -717,7 +761,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2025,
-    "pote": "2,8 L"
+    "pote": "2,8 L",
+    "completo": false
   },
   {
     "id": 27,
@@ -733,7 +778,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2025,
-    "pote": "NP 11"
+    "pote": "NP 11",
+    "completo": false
   },
   {
     "id": 28,
@@ -749,7 +795,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2025,
-    "pote": "2,8 L"
+    "pote": "2,8 L",
+    "completo": true
   },
   {
     "id": 167,
@@ -765,7 +812,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2025,
-    "pote": "2,8 L"
+    "pote": "2,8 L",
+    "completo": false
   },
   {
     "id": 168,
@@ -781,7 +829,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2025,
-    "pote": "2,8 L"
+    "pote": "2,8 L",
+    "completo": false
   },
   {
     "id": 169,
@@ -797,7 +846,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2025,
-    "pote": "2,8 L"
+    "pote": "2,8 L",
+    "completo": false
   },
   {
     "id": 170,
@@ -813,7 +863,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2025,
-    "pote": "2,8 L"
+    "pote": "2,8 L",
+    "completo": false
   },
   {
     "id": 171,
@@ -829,7 +880,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2025,
-    "pote": "2,8 L"
+    "pote": "2,8 L",
+    "completo": false
   },
   {
     "id": 172,
@@ -845,7 +897,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2025,
-    "pote": "2,8 L"
+    "pote": "2,8 L",
+    "completo": false
   },
   {
     "id": 173,
@@ -861,7 +914,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2025,
-    "pote": "2,8 L"
+    "pote": "2,8 L",
+    "completo": false
   },
   {
     "id": 174,
@@ -877,7 +931,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2025,
-    "pote": "2,8 L"
+    "pote": "2,8 L",
+    "completo": false
   },
   {
     "id": 175,
@@ -893,7 +948,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2025,
-    "pote": "NP 14 e 2,8L"
+    "pote": "NP 14 e 2,8L",
+    "completo": false
   },
   {
     "id": 176,
@@ -909,7 +965,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2025,
-    "pote": "2,8 L"
+    "pote": "2,8 L",
+    "completo": false
   },
   {
     "id": 177,
@@ -925,7 +982,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2025,
-    "pote": "2,8 L"
+    "pote": "2,8 L",
+    "completo": false
   },
   {
     "id": 178,
@@ -941,7 +999,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2025,
-    "pote": "2,8 L"
+    "pote": "2,8 L",
+    "completo": false
   },
   {
     "id": 179,
@@ -957,7 +1016,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2025,
-    "pote": "2,8 L"
+    "pote": "2,8 L",
+    "completo": false
   },
   {
     "id": 193,
@@ -973,7 +1033,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Meia Sombra",
     "disponibilidade": 2025,
-    "pote": "NP 14 e 2,8L"
+    "pote": "NP 14 e 2,8L",
+    "completo": false
   },
   {
     "id": 194,
@@ -989,7 +1050,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Meia Sombra",
     "disponibilidade": 2025,
-    "pote": "NP 14 e 2,8L"
+    "pote": "NP 14 e 2,8L",
+    "completo": false
   },
   {
     "id": 195,
@@ -1005,7 +1067,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Meia Sombra",
     "disponibilidade": 2025,
-    "pote": "NP 14 e 2,8L"
+    "pote": "NP 14 e 2,8L",
+    "completo": false
   },
   {
     "id": 196,
@@ -1021,7 +1084,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Meia Sombra",
     "disponibilidade": 2025,
-    "pote": "NP 14 e 2,8L"
+    "pote": "NP 14 e 2,8L",
+    "completo": false
   },
   {
     "id": 197,
@@ -1037,7 +1101,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Meia Sombra",
     "disponibilidade": 2025,
-    "pote": "NP 14 e 2,8L"
+    "pote": "NP 14 e 2,8L",
+    "completo": false
   },
   {
     "id": 198,
@@ -1053,7 +1118,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Meia Sombra",
     "disponibilidade": 2025,
-    "pote": "NP 14 e 2,8L"
+    "pote": "NP 14 e 2,8L",
+    "completo": false
   },
   {
     "id": 199,
@@ -1069,7 +1135,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Meia Sombra",
     "disponibilidade": 2025,
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 200,
@@ -1085,7 +1152,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Meia Sombra",
     "disponibilidade": 2025,
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 201,
@@ -1101,7 +1169,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Meia Sombra",
     "disponibilidade": 2025,
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 212,
@@ -1117,7 +1186,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2025,
-    "pote": "2,8 L e 11L"
+    "pote": "2,8 L e 11L",
+    "completo": false
   },
   {
     "id": 213,
@@ -1133,7 +1203,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2025,
-    "pote": "2,8 L e 11L"
+    "pote": "2,8 L e 11L",
+    "completo": false
   },
   {
     "id": 214,
@@ -1149,7 +1220,8 @@
     "espacamentosugeridounidadedemedida": "cada 150cm",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2025,
-    "pote": "2,8 L e 11L"
+    "pote": "2,8 L e 11L",
+    "completo": false
   },
   {
     "id": 215,
@@ -1165,7 +1237,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2025,
-    "pote": "2,8 L e 11L"
+    "pote": "2,8 L e 11L",
+    "completo": false
   },
   {
     "id": 216,
@@ -1181,7 +1254,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2025,
-    "pote": "2,8 L e 11L"
+    "pote": "2,8 L e 11L",
+    "completo": false
   },
   {
     "id": 231,
@@ -1197,7 +1271,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2025,
-    "pote": "NP 14 e 2,8L"
+    "pote": "NP 14 e 2,8L",
+    "completo": false
   },
   {
     "id": 232,
@@ -1213,7 +1288,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2025,
-    "pote": "NP 14 e 2,8L"
+    "pote": "NP 14 e 2,8L",
+    "completo": false
   },
   {
     "id": 233,
@@ -1229,7 +1305,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2025,
-    "pote": "NP 14 e 2,8L"
+    "pote": "NP 14 e 2,8L",
+    "completo": false
   },
   {
     "id": 234,
@@ -1245,7 +1322,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2025,
-    "pote": "NP 14 e 2,8L"
+    "pote": "NP 14 e 2,8L",
+    "completo": false
   },
   {
     "id": 235,
@@ -1261,7 +1339,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2025,
-    "pote": "NP 14 e 2,8L"
+    "pote": "NP 14 e 2,8L",
+    "completo": false
   },
   {
     "id": 29,
@@ -1277,7 +1356,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2026,
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 30,
@@ -1293,7 +1373,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2026,
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 31,
@@ -1309,7 +1390,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2026,
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": true
   },
   {
     "id": 32,
@@ -1325,7 +1407,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2026,
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 33,
@@ -1341,7 +1424,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2026,
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 34,
@@ -1357,7 +1441,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2026,
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 35,
@@ -1373,7 +1458,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2026,
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 36,
@@ -1389,7 +1475,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2026,
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 37,
@@ -1405,7 +1492,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2026,
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 38,
@@ -1421,7 +1509,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2026,
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 39,
@@ -1437,7 +1526,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2026,
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 40,
@@ -1453,7 +1543,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2026,
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 41,
@@ -1469,7 +1560,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2026,
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 42,
@@ -1485,7 +1577,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2026,
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 43,
@@ -1501,7 +1594,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2026,
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 44,
@@ -1517,7 +1611,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2026,
-    "pote": "2,8 L"
+    "pote": "2,8 L",
+    "completo": false
   },
   {
     "id": 45,
@@ -1533,7 +1628,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2026,
-    "pote": "2,8 L"
+    "pote": "2,8 L",
+    "completo": false
   },
   {
     "id": 46,
@@ -1549,7 +1645,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2026,
-    "pote": "2,8 L"
+    "pote": "2,8 L",
+    "completo": false
   },
   {
     "id": 47,
@@ -1565,7 +1662,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2026,
-    "pote": "2,8 L"
+    "pote": "2,8 L",
+    "completo": false
   },
   {
     "id": 217,
@@ -1581,7 +1679,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2026,
-    "pote": "2,8 L e 11L"
+    "pote": "2,8 L e 11L",
+    "completo": false
   },
   {
     "id": 218,
@@ -1597,7 +1696,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": 2026,
-    "pote": "2,8 L e 11L"
+    "pote": "2,8 L e 11L",
+    "completo": false
   },
   {
     "id": 48,
@@ -1613,7 +1713,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "2,8 L"
+    "pote": "2,8 L",
+    "completo": true
   },
   {
     "id": 49,
@@ -1629,7 +1730,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "2,8 L"
+    "pote": "2,8 L",
+    "completo": true
   },
   {
     "id": 50,
@@ -1645,7 +1747,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "2,8 L"
+    "pote": "2,8 L",
+    "completo": true
   },
   {
     "id": 51,
@@ -1661,7 +1764,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "2,8 L"
+    "pote": "2,8 L",
+    "completo": false
   },
   {
     "id": 52,
@@ -1677,7 +1781,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "Solto"
+    "pote": "Solto",
+    "completo": true
   },
   {
     "id": 53,
@@ -1693,7 +1798,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "NP 14 "
+    "pote": "NP 14 ",
+    "completo": false
   },
   {
     "id": 54,
@@ -1709,7 +1815,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": true
   },
   {
     "id": 55,
@@ -1725,7 +1832,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 56,
@@ -1741,7 +1849,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "Bacia 30L"
+    "pote": "Bacia 30L",
+    "completo": false
   },
   {
     "id": 57,
@@ -1757,7 +1866,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": true
   },
   {
     "id": 58,
@@ -1773,7 +1883,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "Solto"
+    "pote": "Solto",
+    "completo": false
   },
   {
     "id": 59,
@@ -1789,7 +1900,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "2,8 L"
+    "pote": "2,8 L",
+    "completo": true
   },
   {
     "id": 60,
@@ -1805,7 +1917,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "2,8 L"
+    "pote": "2,8 L",
+    "completo": true
   },
   {
     "id": 61,
@@ -1821,7 +1934,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "2,8 L"
+    "pote": "2,8 L",
+    "completo": false
   },
   {
     "id": 62,
@@ -1837,7 +1951,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "2,8 L"
+    "pote": "2,8 L",
+    "completo": true
   },
   {
     "id": 63,
@@ -1853,7 +1968,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "2,8 L"
+    "pote": "2,8 L",
+    "completo": false
   },
   {
     "id": 64,
@@ -1869,7 +1985,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "2,8 L"
+    "pote": "2,8 L",
+    "completo": true
   },
   {
     "id": 65,
@@ -1885,7 +2002,8 @@
     "espacamentosugeridounidadedemedida": "5 a 10 metros em linha",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "Saco 9L"
+    "pote": "Saco 9L",
+    "completo": true
   },
   {
     "id": 66,
@@ -1901,7 +2019,8 @@
     "espacamentosugeridounidadedemedida": "5 a 10 metros em linha",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "Saco 9L"
+    "pote": "Saco 9L",
+    "completo": false
   },
   {
     "id": 67,
@@ -1917,7 +2036,8 @@
     "espacamentosugeridounidadedemedida": "5 a 10 metros em linha",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "Saco 9L"
+    "pote": "Saco 9L",
+    "completo": false
   },
   {
     "id": 68,
@@ -1933,7 +2053,8 @@
     "espacamentosugeridounidadedemedida": "5 a 10 metros em linha",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "Saco 9L"
+    "pote": "Saco 9L",
+    "completo": false
   },
   {
     "id": 69,
@@ -1949,7 +2070,8 @@
     "espacamentosugeridounidadedemedida": "5 a 10 metros em linha",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "Saco 9L"
+    "pote": "Saco 9L",
+    "completo": false
   },
   {
     "id": 70,
@@ -1965,7 +2087,8 @@
     "espacamentosugeridounidadedemedida": "5 a 10 metros em linha",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "Saco 9L"
+    "pote": "Saco 9L",
+    "completo": false
   },
   {
     "id": 71,
@@ -1981,7 +2104,8 @@
     "espacamentosugeridounidadedemedida": "5 a 10 metros em linha",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "Saco 9L"
+    "pote": "Saco 9L",
+    "completo": false
   },
   {
     "id": 72,
@@ -1997,7 +2121,8 @@
     "espacamentosugeridounidadedemedida": "5 a 10 metros em linha",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "Saco 9L"
+    "pote": "Saco 9L",
+    "completo": false
   },
   {
     "id": 73,
@@ -2013,7 +2138,8 @@
     "espacamentosugeridounidadedemedida": "5 a 10 metros em linha",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "Saco 9L"
+    "pote": "Saco 9L",
+    "completo": false
   },
   {
     "id": 74,
@@ -2029,7 +2155,8 @@
     "espacamentosugeridounidadedemedida": "5 a 10 metros em linha",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "Saco 9L"
+    "pote": "Saco 9L",
+    "completo": false
   },
   {
     "id": 75,
@@ -2045,7 +2172,8 @@
     "espacamentosugeridounidadedemedida": "5 a 10 metros em linha",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "Saco 9L"
+    "pote": "Saco 9L",
+    "completo": false
   },
   {
     "id": 76,
@@ -2061,7 +2189,8 @@
     "espacamentosugeridounidadedemedida": "5 a 10 metros em linha",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "Saco 9L"
+    "pote": "Saco 9L",
+    "completo": false
   },
   {
     "id": 77,
@@ -2077,7 +2206,8 @@
     "espacamentosugeridounidadedemedida": "5 a 10 metros em linha",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "Saco 9L"
+    "pote": "Saco 9L",
+    "completo": false
   },
   {
     "id": 78,
@@ -2093,7 +2223,8 @@
     "espacamentosugeridounidadedemedida": "5 a 10 metros em linha",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "Saco 9L"
+    "pote": "Saco 9L",
+    "completo": false
   },
   {
     "id": 79,
@@ -2109,7 +2240,8 @@
     "espacamentosugeridounidadedemedida": "5 a 10 metros em linha",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "Saco 9L"
+    "pote": "Saco 9L",
+    "completo": false
   },
   {
     "id": 80,
@@ -2125,7 +2257,8 @@
     "espacamentosugeridounidadedemedida": "5 a 10 metros em linha",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "Saco 9L"
+    "pote": "Saco 9L",
+    "completo": false
   },
   {
     "id": 81,
@@ -2141,7 +2274,8 @@
     "espacamentosugeridounidadedemedida": "5 a 10 metros em linha",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "Saco 9L"
+    "pote": "Saco 9L",
+    "completo": false
   },
   {
     "id": 82,
@@ -2157,7 +2291,8 @@
     "espacamentosugeridounidadedemedida": "5 a 10 metros em linha",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "Saco 9L"
+    "pote": "Saco 9L",
+    "completo": false
   },
   {
     "id": 83,
@@ -2173,7 +2308,8 @@
     "espacamentosugeridounidadedemedida": "5 a 10 metros em linha",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "Saco 9L"
+    "pote": "Saco 9L",
+    "completo": false
   },
   {
     "id": 87,
@@ -2189,7 +2325,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 88,
@@ -2205,7 +2342,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": true
   },
   {
     "id": 89,
@@ -2221,7 +2359,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 90,
@@ -2237,7 +2376,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 91,
@@ -2253,7 +2393,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Meia Sombra",
     "disponibilidade": "Disponível",
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 92,
@@ -2269,7 +2410,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Meia Sombra",
     "disponibilidade": "Disponível",
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 93,
@@ -2285,7 +2427,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 94,
@@ -2301,7 +2444,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 95,
@@ -2317,7 +2461,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Meia Sombra",
     "disponibilidade": "Disponível",
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 96,
@@ -2333,7 +2478,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Meia Sombra",
     "disponibilidade": "Disponível",
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 97,
@@ -2349,7 +2495,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Meia Sombra",
     "disponibilidade": "Disponível",
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 98,
@@ -2365,7 +2512,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 99,
@@ -2381,7 +2529,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Meia Sombra",
     "disponibilidade": "Disponível",
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 100,
@@ -2397,7 +2546,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Meia Sombra",
     "disponibilidade": "Disponível",
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 101,
@@ -2413,7 +2563,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Meia Sombra",
     "disponibilidade": "Disponível",
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 102,
@@ -2429,7 +2580,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Meia Sombra",
     "disponibilidade": "Disponível",
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 103,
@@ -2445,7 +2597,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Meia Sombra",
     "disponibilidade": "Disponível",
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 104,
@@ -2461,7 +2614,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Meia Sombra",
     "disponibilidade": "Disponível",
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 105,
@@ -2477,7 +2631,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Meia Sombra",
     "disponibilidade": "Disponível",
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 106,
@@ -2493,7 +2648,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": true
   },
   {
     "id": 107,
@@ -2509,7 +2665,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Meia Sombra",
     "disponibilidade": "Disponível",
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 108,
@@ -2525,7 +2682,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 109,
@@ -2541,7 +2699,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 110,
@@ -2557,7 +2716,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Meia Sombra",
     "disponibilidade": "Disponível",
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 111,
@@ -2573,7 +2733,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Meia Sombra",
     "disponibilidade": "Disponível",
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 112,
@@ -2589,7 +2750,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Meia Sombra",
     "disponibilidade": "Disponível",
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 113,
@@ -2605,7 +2767,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 114,
@@ -2621,7 +2784,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 115,
@@ -2637,7 +2801,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Meia Sombra",
     "disponibilidade": "Disponível",
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 116,
@@ -2653,7 +2818,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Meia Sombra",
     "disponibilidade": "Disponível",
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 117,
@@ -2669,7 +2835,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Meia Sombra",
     "disponibilidade": "Disponível",
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": true
   },
   {
     "id": 118,
@@ -2685,7 +2852,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 119,
@@ -2701,7 +2869,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sombra",
     "disponibilidade": "Disponível",
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": true
   },
   {
     "id": 120,
@@ -2717,7 +2886,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sombra",
     "disponibilidade": "Disponível",
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": true
   },
   {
     "id": 121,
@@ -2733,7 +2903,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Meia Sombra",
     "disponibilidade": "Disponível",
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 122,
@@ -2749,7 +2920,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sombra",
     "disponibilidade": "Disponível",
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": true
   },
   {
     "id": 123,
@@ -2765,7 +2937,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "NP 14 e 2,8L"
+    "pote": "NP 14 e 2,8L",
+    "completo": true
   },
   {
     "id": 124,
@@ -2781,7 +2954,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "NP 14 e 2,8L"
+    "pote": "NP 14 e 2,8L",
+    "completo": true
   },
   {
     "id": 125,
@@ -2797,7 +2971,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "NP 14 e 2,8L"
+    "pote": "NP 14 e 2,8L",
+    "completo": true
   },
   {
     "id": 126,
@@ -2813,7 +2988,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "NP 14 e 2,8L"
+    "pote": "NP 14 e 2,8L",
+    "completo": true
   },
   {
     "id": 127,
@@ -2829,7 +3005,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "NP 14 e 2,8L"
+    "pote": "NP 14 e 2,8L",
+    "completo": true
   },
   {
     "id": 128,
@@ -2845,7 +3022,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "NP 14 e 2,8L"
+    "pote": "NP 14 e 2,8L",
+    "completo": true
   },
   {
     "id": 129,
@@ -2861,7 +3039,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "NP 14 e 2,8L"
+    "pote": "NP 14 e 2,8L",
+    "completo": true
   },
   {
     "id": 130,
@@ -2877,7 +3056,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "NP 14 e 2,8L"
+    "pote": "NP 14 e 2,8L",
+    "completo": true
   },
   {
     "id": 131,
@@ -2893,7 +3073,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "NP 14 e 2,8L"
+    "pote": "NP 14 e 2,8L",
+    "completo": true
   },
   {
     "id": 132,
@@ -2909,7 +3090,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "NP 14 e 2,8L"
+    "pote": "NP 14 e 2,8L",
+    "completo": false
   },
   {
     "id": 133,
@@ -2925,7 +3107,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "NP 14 e 2,8L"
+    "pote": "NP 14 e 2,8L",
+    "completo": true
   },
   {
     "id": 134,
@@ -2941,7 +3124,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "NP 14 e 2,8L"
+    "pote": "NP 14 e 2,8L",
+    "completo": true
   },
   {
     "id": 135,
@@ -2957,7 +3141,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "NP 14 e 2,8L"
+    "pote": "NP 14 e 2,8L",
+    "completo": true
   },
   {
     "id": 136,
@@ -2973,7 +3158,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "NP 14 e 2,8L"
+    "pote": "NP 14 e 2,8L",
+    "completo": true
   },
   {
     "id": 137,
@@ -2989,7 +3175,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "NP 14 e 2,8L"
+    "pote": "NP 14 e 2,8L",
+    "completo": false
   },
   {
     "id": 138,
@@ -3005,7 +3192,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "NP 14 e 2,8L"
+    "pote": "NP 14 e 2,8L",
+    "completo": true
   },
   {
     "id": 139,
@@ -3021,7 +3209,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "NP 14 e 2,8L"
+    "pote": "NP 14 e 2,8L",
+    "completo": true
   },
   {
     "id": 140,
@@ -3037,7 +3226,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "NP 14 e 2,8L"
+    "pote": "NP 14 e 2,8L",
+    "completo": true
   },
   {
     "id": 141,
@@ -3053,7 +3243,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "NP 14 e 2,8L"
+    "pote": "NP 14 e 2,8L",
+    "completo": true
   },
   {
     "id": 142,
@@ -3069,7 +3260,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "NP 14 e 2,8L"
+    "pote": "NP 14 e 2,8L",
+    "completo": true
   },
   {
     "id": 143,
@@ -3085,7 +3277,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "NP 14 e 2,8L"
+    "pote": "NP 14 e 2,8L",
+    "completo": false
   },
   {
     "id": 144,
@@ -3101,7 +3294,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "NP 14 e 2,8L"
+    "pote": "NP 14 e 2,8L",
+    "completo": true
   },
   {
     "id": 145,
@@ -3117,7 +3311,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "NP 14 e 2,8L"
+    "pote": "NP 14 e 2,8L",
+    "completo": true
   },
   {
     "id": 146,
@@ -3133,7 +3328,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "NP 14 e 2,8L"
+    "pote": "NP 14 e 2,8L",
+    "completo": false
   },
   {
     "id": 147,
@@ -3149,7 +3345,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "NP 14 e 2,8L"
+    "pote": "NP 14 e 2,8L",
+    "completo": false
   },
   {
     "id": 148,
@@ -3165,7 +3362,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "NP 14 e 2,8L"
+    "pote": "NP 14 e 2,8L",
+    "completo": true
   },
   {
     "id": 149,
@@ -3181,7 +3379,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "NP 14 e 2,8L"
+    "pote": "NP 14 e 2,8L",
+    "completo": true
   },
   {
     "id": 150,
@@ -3197,7 +3396,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "NP 14 e 2,8L"
+    "pote": "NP 14 e 2,8L",
+    "completo": true
   },
   {
     "id": 151,
@@ -3213,7 +3413,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "NP 14 e 2,8L"
+    "pote": "NP 14 e 2,8L",
+    "completo": true
   },
   {
     "id": 152,
@@ -3229,7 +3430,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "NP 14 e 2,8L"
+    "pote": "NP 14 e 2,8L",
+    "completo": false
   },
   {
     "id": 153,
@@ -3245,7 +3447,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "NP 14 e 2,8L"
+    "pote": "NP 14 e 2,8L",
+    "completo": true
   },
   {
     "id": 154,
@@ -3261,7 +3464,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "NP 14 e 2,8L"
+    "pote": "NP 14 e 2,8L",
+    "completo": true
   },
   {
     "id": 155,
@@ -3277,7 +3481,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "NP 14 e 2,8L"
+    "pote": "NP 14 e 2,8L",
+    "completo": true
   },
   {
     "id": 156,
@@ -3293,7 +3498,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "NP 14 e 2,8L"
+    "pote": "NP 14 e 2,8L",
+    "completo": true
   },
   {
     "id": 157,
@@ -3309,7 +3515,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "NP 14 e 2,8L"
+    "pote": "NP 14 e 2,8L",
+    "completo": true
   },
   {
     "id": 180,
@@ -3325,7 +3532,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "NP 14, 2,8L e 15L"
+    "pote": "NP 14, 2,8L e 15L",
+    "completo": false
   },
   {
     "id": 181,
@@ -3341,7 +3549,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "2,8 L e saco 9L"
+    "pote": "2,8 L e saco 9L",
+    "completo": false
   },
   {
     "id": 182,
@@ -3357,7 +3566,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 183,
@@ -3373,7 +3583,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 184,
@@ -3389,7 +3600,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 185,
@@ -3405,7 +3617,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "NP 14 e 2,8L"
+    "pote": "NP 14 e 2,8L",
+    "completo": false
   },
   {
     "id": 202,
@@ -3421,7 +3634,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Meia Sombra",
     "disponibilidade": "Disponível",
-    "pote": "NP 14 e 2,8L"
+    "pote": "NP 14 e 2,8L",
+    "completo": true
   },
   {
     "id": 203,
@@ -3437,7 +3651,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Meia Sombra",
     "disponibilidade": "Disponível",
-    "pote": "NP 14 e 2,8L"
+    "pote": "NP 14 e 2,8L",
+    "completo": false
   },
   {
     "id": 204,
@@ -3453,7 +3668,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Meia Sombra",
     "disponibilidade": "Disponível",
-    "pote": "NP 14 e 2,8L"
+    "pote": "NP 14 e 2,8L",
+    "completo": false
   },
   {
     "id": 205,
@@ -3469,7 +3685,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Meia Sombra",
     "disponibilidade": "Disponível",
-    "pote": "NP 14 e 2,8L"
+    "pote": "NP 14 e 2,8L",
+    "completo": true
   },
   {
     "id": 206,
@@ -3485,7 +3702,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Meia Sombra",
     "disponibilidade": "Disponível",
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": true
   },
   {
     "id": 207,
@@ -3501,7 +3719,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Meia Sombra",
     "disponibilidade": "Disponível",
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 208,
@@ -3517,7 +3736,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Meia Sombra",
     "disponibilidade": "Disponível",
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 209,
@@ -3533,7 +3753,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Meia Sombra",
     "disponibilidade": "Disponível",
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 210,
@@ -3549,7 +3770,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Meia Sombra",
     "disponibilidade": "Disponível",
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 211,
@@ -3565,7 +3787,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Meia Sombra",
     "disponibilidade": "Disponível",
-    "pote": "NP 14"
+    "pote": "NP 14",
+    "completo": false
   },
   {
     "id": 219,
@@ -3581,7 +3804,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "2,8 L e solto"
+    "pote": "2,8 L e solto",
+    "completo": true
   },
   {
     "id": 220,
@@ -3597,7 +3821,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "2,8 L e solto"
+    "pote": "2,8 L e solto",
+    "completo": true
   },
   {
     "id": 221,
@@ -3613,7 +3838,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "2,8 L e solto"
+    "pote": "2,8 L e solto",
+    "completo": true
   },
   {
     "id": 222,
@@ -3629,7 +3855,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "2,8 L e solto"
+    "pote": "2,8 L e solto",
+    "completo": true
   },
   {
     "id": 223,
@@ -3645,7 +3872,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "2,8 L e solto"
+    "pote": "2,8 L e solto",
+    "completo": true
   },
   {
     "id": 224,
@@ -3661,7 +3889,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "2,8 L e solto"
+    "pote": "2,8 L e solto",
+    "completo": true
   },
   {
     "id": 225,
@@ -3677,7 +3906,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "2,8 L e solto"
+    "pote": "2,8 L e solto",
+    "completo": true
   },
   {
     "id": 226,
@@ -3693,7 +3923,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "2,8 L e solto"
+    "pote": "2,8 L e solto",
+    "completo": true
   },
   {
     "id": 227,
@@ -3709,7 +3940,8 @@
     "espacamentosugeridounidadedemedida": "m²",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "2,8 L e solto"
+    "pote": "2,8 L e solto",
+    "completo": true
   },
   {
     "id": 228,
@@ -3725,7 +3957,8 @@
     "espacamentosugeridounidadedemedida": "cada 200cm",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "Saco 9L"
+    "pote": "Saco 9L",
+    "completo": false
   },
   {
     "id": 229,
@@ -3741,7 +3974,8 @@
     "espacamentosugeridounidadedemedida": "cada 150cm",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "Saco 9L"
+    "pote": "Saco 9L",
+    "completo": false
   },
   {
     "id": 230,
@@ -3757,6 +3991,7 @@
     "espacamentosugeridounidadedemedida": "cada 150cm",
     "insolacao": "Sol Pleno",
     "disponibilidade": "Disponível",
-    "pote": "Saco 9L"
+    "pote": "Saco 9L",
+    "completo": false
   }
 ]
