@@ -48,7 +48,7 @@
           </select>
         </div>
         <div class="filter-item">
-          <label for="espacamento-filter">Espaçamento Sugerido:</label>
+          <label for="espacamento-filter">Espaçamento <br />Sugerido:</label>
           <select id="espacamento-filter">
             <option value="">Todos</option>
             <option value="1">1 / m²</option>
@@ -99,7 +99,7 @@
                     <div class="info">
                       <h2>${item.nomepopular}</h2>
                       <p><strong>Nome científico:</strong> <i>${
-                        item.nomecientifico
+                        item.genero + item.especie
                       }</i></p>
                       <p><strong>Pote:</strong> ${item.pote}</p>
                       <p><strong>Insolação:</strong> ${item.insolacao}</p>
@@ -128,8 +128,10 @@
                     <div><h3>Porte Adulto</h3><p>${
                       item.porteadultoemcm
                     } cm</p></div>
-                    <div><h3>Crescimento</h3><p>${item.crescimento}</p></div>
-                    <div><h3>Diferencial</h3><p>${item.diferencial}</p></div>
+                    <div><h3>Crescimento</h3><p>${
+                      item.tempodecrescimento
+                    }</p></div>
+                    <div><h3>Diferencial</h3><p>${item.caracteristica}</p></div>
                     <div><h3>Espaçamento Sugerido</h3><p>${
                       item.espacamentosugeridoquantidade
                     } / ${item.espacamentosugeridounidadedemedida}</p></div>
@@ -202,7 +204,7 @@
               matchInsolacao &&
               matchNacionalidade &&
               (crescimentoValue === "" ||
-                item.crescimento === crescimentoValue) &&
+                item.tempodecrescimento === crescimentoValue) &&
               (searchQuery === "" ||
                 item.nomepopular.toLowerCase().includes(searchQuery))
             );
