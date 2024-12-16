@@ -901,7 +901,7 @@
   },
   {
     "id": 4004,
-    "completo": false,
+    "completo": true,
     "categoria": "Aquáticas Diversas",
     "nomepopular": "Alface d'Água",
     "genero": "Pistia",
@@ -973,7 +973,7 @@
   },
   {
     "id": 4008,
-    "completo": false,
+    "completo": true,
     "categoria": "Aquáticas Diversas",
     "nomepopular": "Capim Estrela Aquático",
     "genero": "Dichromena",
@@ -991,7 +991,7 @@
   },
   {
     "id": 4009,
-    "completo": false,
+    "completo": true,
     "categoria": "Aquáticas Diversas",
     "nomepopular": "Copo de Leite",
     "genero": "Zantedeschia",
@@ -1891,7 +1891,7 @@
   },
   {
     "id": 7016,
-    "completo": false,
+    "completo": true,
     "categoria": "Folhagens de Sol",
     "nomepopular": "Orelha de Elefante",
     "genero": "Alocasia",
@@ -2089,7 +2089,7 @@
   },
   {
     "id": 9001,
-    "completo": false,
+    "completo": true,
     "categoria": "Gramíneas",
     "nomepopular": "Bambu Vassoura",
     "genero": "Pseudosasa",
