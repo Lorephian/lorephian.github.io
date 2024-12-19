@@ -27,15 +27,21 @@ body {
   font-size: 16px;
   border-radius: 5px;
   border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .search-button {
   border-radius: 10px;
   height: 35px;
+  font-size: 16px;
+  font-weight: 600;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
 }
 
 .search-button:hover {
-  background-color: #5fc79c;
+  background-color: #70c0a5;
+  transition: background-color 0.5s ease;
 }
 
 .filters {
@@ -49,7 +55,7 @@ body {
   background-color: #f0f0f0; /* Optional: Change to the background color of your site */
   z-index: 1000; /* Ensures it stays above other elements */
   padding: 10px; /* Adjust as necessary */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds a shadow effect */
 }
 
 .filters-itens {
@@ -76,6 +82,7 @@ body {
   font-size: 14px;
   border-radius: 5px;
   border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* Auto Complete */
