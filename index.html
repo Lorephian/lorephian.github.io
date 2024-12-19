@@ -311,29 +311,16 @@
           const insolacaoSet = new Set();
           const crescimentoSet = new Set();
           const espacamentoSet = new Set();
-          const origemSet = new Set();
+          const nacionalidadeSet = new Set();
           const porteSet = new Set();
 
           catalogData.forEach((item) => {
             if (item.insolacao) insolacaoSet.add(item.insolacao);
             if (item.tempodecrescimento)
               crescimentoSet.add(item.tempodecrescimento);
-            if (item.espacamentosugeridoquantidade) {
-              const espacamento = parseInt(
-                item.espacamentosugeridoquantidade,
-                10
-              );
-              if (espacamento === 1) espacamentoSet.add("1");
-              else if (espacamento === 3) espacamentoSet.add("3");
-              else if (espacamento === 4) espacamentoSet.add("4");
-              else if (espacamento === 5) espacamentoSet.add("5");
-              else if (espacamento === 9) espacamentoSet.add("9");
-              else if (espacamento === 12) espacamentoSet.add("12");
-              else if (espacamento === 13) espacamentoSet.add("13");
-              else if (espacamento === 15) espacamentoSet.add("15");
-              else if (espacamento === 30) espacamentoSet.add("30");
-            }
-            if (item.origem) origemSet.add(item.origem);
+            if (item.espacamentosugeridoquantidade)
+              espacamentoSet.add(item.espacamentosugeridoquantidade);
+            if (item.nacionalidade) nacionalidadeSet.add(item.nacionalidade);
             if (item.porteadultoemcm) {
               const porte = parseInt(item.porteadultoemcm, 10);
               if (porte <= 60) porteSet.add("60");
@@ -344,18 +331,8 @@
 
           updateSelectOptions("insolacao-filter", insolacaoSet);
           updateSelectOptions("crescimento-filter", crescimentoSet);
-          updateSelectOptions("espacamento-filter", espacamentoSet, {
-            1: "1 / m²",
-            3: "3 / m²",
-            4: "4 / m²",
-            5: "5 / m²",
-            9: "9 / m²",
-            12: "12 / m²",
-            13: "13 / m²",
-            15: "15 / m²",
-            30: "30 / m²",
-          });
-          updateSelectOptions("origem-filter", origemSet);
+          updateSelectOptions("espacamento-filter", espacamentoSet);
+          updateSelectOptions("nacionalidade-filter", nacionalidadeSet);
           updateSelectOptions("porte-filter", porteSet, {
             60: "Baixo (até 60 cm)",
             120: "Médio (61-120 cm)",
@@ -377,13 +354,13 @@
             });
         }
 
+        // Fetch catalog data and initialize filters and autocomplete
         fetch("./produtos.json")
           .then((response) => response.json())
           .then((data) => {
             catalogData = data;
             let plantNames = catalogData.map((item) => item.nomepopular);
             autocomplete(document.getElementById("search"), plantNames);
-            populateFilters(catalogData); // Populate filters dynamically
             filterCatalog(); // Initially display all catalog items
           })
           .catch((error) =>
