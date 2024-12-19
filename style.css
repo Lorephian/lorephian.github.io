@@ -14,11 +14,12 @@ body {
 /* Filter Section: Filters and Search */
 
 .search-bar {
-  margin-bottom: 20px;
+  margin: 20px 0;
   width: 30%;
   display: flex;
   gap: 10px;
   padding: 0 20px 0 10vw;
+  align-items: center;
 }
 .search-bar input {
   width: 100%;
@@ -30,10 +31,16 @@ body {
 
 .search-button {
   border-radius: 10px;
+  height: 35px;
+}
+
+.search-button:hover {
+  background-color: #5fc79c;
 }
 
 .filters {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   margin-bottom: 20px;
   position: fixed;
