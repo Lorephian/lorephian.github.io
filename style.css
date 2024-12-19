@@ -248,21 +248,26 @@ body {
   .filters {
     width: 100%;
     flex-direction: column;
-    padding: 20px 0;
+    padding: 0 0 20px;
+  }
+
+  .filter-item {
+    align-items: center;
   }
 
   .filters-itens {
     max-width: 100vw;
+    padding: 0;
   }
 
   .search-bar {
-    margin-top: 10px;
+    margin: 0 0 20px;
     width: 80%;
     padding: 0px;
   }
 
   .container {
-    margin-top: 50%;
+    margin-top: 35%;
     grid-template-columns: 1fr; /* Exibir uma coluna por linha */
   }
 
@@ -276,6 +281,7 @@ body {
 
   .logo-section {
     flex-direction: column-reverse;
+    padding: 0;
   }
 
   .logo-section img {
