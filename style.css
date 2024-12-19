@@ -8,17 +8,22 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
-  padding-top: 180px;
+  padding-top: 200px;
 }
 
 /* Filter Section: Filters and Search */
 
+.logo-header-img {
+  width: 150px;
+  height: 150px;
+}
+
 .search-bar {
   margin: 20px 0;
-  width: 30%;
+  width: 50%;
   display: flex;
   gap: 10px;
-  padding: 0 20px 0 10vw;
+  padding: 0 20px 0 30px;
   align-items: center;
 }
 .search-bar input {
@@ -51,18 +56,22 @@ body {
   margin-bottom: 20px;
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 60vw;
   background-color: #f0f0f0; /* Optional: Change to the background color of your site */
   z-index: 1000; /* Ensures it stays above other elements */
-  padding: 10px; /* Adjust as necessary */
+  padding: 0 20vw 0 20vw; /* Adjust as necessary */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds a shadow effect */
 }
 
 .filters-itens {
-  padding-right: 10vw;
+  max-width: 20vw;
+  padding: 20px 0;
   display: flex;
-  gap: 20px; /* Adjust the gap between filters */
-  flex-wrap: wrap; /* Allow filters to wrap on smaller screens */
+  gap: 20px 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
 }
 
 .filter-item {
@@ -83,6 +92,7 @@ body {
   border-radius: 5px;
   border: 1px solid #ccc;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
 }
 
 /* Auto Complete */
@@ -230,9 +240,21 @@ body {
 }
 
 @media (max-width: 768px) {
-  .filters {
-    flex-direction: column-reverse;
+  .logo-header-img {
+    max-width: 100px;
+    max-height: 100px;
   }
+
+  .filters {
+    width: 100%;
+    flex-direction: column;
+    padding: 20px 0;
+  }
+
+  .filters-itens {
+    max-width: 100vw;
+  }
+
   .search-bar {
     margin-top: 10px;
     width: 80%;
@@ -240,7 +262,7 @@ body {
   }
 
   .container {
-    margin-top: 40%;
+    margin-top: 50%;
     grid-template-columns: 1fr; /* Exibir uma coluna por linha */
   }
 
